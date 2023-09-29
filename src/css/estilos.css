@@ -12,18 +12,37 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	padding: 30px;
 }
 
-.cartao {
-	background-color: #070d12;
-	width: 370px;
-	border: 2px solid #e126d9;
-	border-radius: 10px;
-	overflow: hidden;
+header {
+	position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #9c3737;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.cartao .minhas-informacoes {
+ul {
+	width: 50%;
+}
+
+nav {
+    width: 300px;
+    margin-right: 100px;
+}
+
+i {
+	font-size: 24px;
+}
+
+img {
+	width: 100px;
+}
+
+.minhas-informacoes {
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
@@ -31,30 +50,32 @@ body {
 	gap: 10px;
 }
 
-.cartao .minhas-informacoes img {
-	border-radius: 50px;
-	border: 4px solid #02d08f;
+.minhas-informacoes img {
+	border-radius: 50%;
+	border: 4px solid #fff;
 }
 
-.cartao .minhas-informacoes .nome {
+.minhas-informacoes .nome {
 	font-size: 26px;
 }
 
-.cartao .minhas-informacoes .cargo {
+.minhas-informacoes .cargo {
 	font-size: 20px;
 	color: #b8bbc5;
 }
 
-.cartao .conteudo {
+.conteudo {
 	margin-top: 15px;
 }
 
-.cartao .abas {
+.abas {
 	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.cartao .abas .aba {
-	width: 50%;
+.abas .aba {
+	width: 15%;
 	display: flex;
 	justify-content: center;
 	padding: 10px 0;
@@ -62,16 +83,18 @@ body {
 	transition: background-color 0.2s ease-in-out;
 }
 
-.cartao .abas img {
+.abas img {
 	max-width: 30px;
 }
 
-.cartao .abas .aba.selecionado {
+.abas .aba.selecionado {
 	background-color: #262626;
+	border-radius: 10px;
 }
 
-.cartao .abas .aba:hover {
-	background-color: #414141;
+.abas .aba:hover {
+	background-color: #262626;
+	border-radius: 10px;
 }
 
 .informacoes-abas {
