@@ -1,38 +1,40 @@
 body {
-	font-family: 'VT323', monospace;
+	font-family: sans-serif;
 
-	background-image: url(../imagens/fundo-site.jpg);
+	background-image: url(../images/fundo-site.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+
 	color: #f3f3f3;
 	font-size: 18px;
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 	min-height: 100vh;
+	margin: 0;
 }
 
 header {
 	position: fixed;
-    width: 90%;
+    width: 40%;
     height: 70px;
     background-color: #ffffffe6;
-	background-color: opacity transparent;
     top: 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
-	margin: 20px;
-	border-radius: 20px;
+	margin: 10px;
+	border-radius: 30px;
+	border: 5px solid #000;
 }
 
-ul {
-	width: 50%;
+header nav ul {
+	width: 70%;
 }
 
 nav {
-    width: 100%;
+	width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -40,15 +42,6 @@ nav {
 i {
 	font-size: 24px;
 	color: #000;
-}
-
-i:hover {
-	color: #000;
-	/* color: #fff; */
-}
-
-img {
-	width: 100px;
 }
 
 p {
@@ -61,18 +54,33 @@ svg {
 	color: #000;
 }
 
+label {
+	color: #fff;
+}
+.box img {
+	width: 300px;
+	height: 400px;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+
+.descricao ul li {
+	margin: 20px;
+}
+
 .minhas-informacoes {
-	padding: 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 10px;
+	margin-right: 40px;
 }
 
 .minhas-informacoes img {
 	border-radius: 10%;
 	border: 4px solid #fff;
-	width: 150px;
+	width: 250px;
 }
 
 .minhas-informacoes .nome {
@@ -92,6 +100,7 @@ svg {
 	display: flex;
     justify-content: space-evenly;
     align-items: center;
+	width: 90%;
 }
 
 .abas .aba {
@@ -108,20 +117,19 @@ svg {
 }
 
 .abas .aba.selecionado {
-	/* background-color: #262626; */
 	border: 3px solid #000;
 	border-radius: 10px;
 }
 
 .abas .aba:hover {
-	/* background-color: #262626; */
 	border: 3px solid #000;
 	border-radius: 10px;
 }
 
 .informacoes-abas {
 	border-radius: 20px;	
-	border: 2px solid #fff;
+	border: 4px solid #fff;
+	height: 480px;
 }
 
 .informacoes-abas .informacao {
@@ -138,14 +146,13 @@ svg {
 
 .informacoes-abas .descricao {
 	font-size: 20px;
-	max-height: 180px;
+	max-height: 450px;
 	overflow-y: auto;
 	padding-right: 15px;
 }
 
 .informacoes-abas .informacao.selecionado {
 	display: block;
-	padding-top: 35px;
 	width: 600px;
 }
 
@@ -186,38 +193,56 @@ svg {
 	transition: 0.7s;
 }
 
-@media (max-width: 426px) {
-	
-	ul {
-		width: 100%;
-	}
-	
-	p {
-		width: 80%;
-		margin: auto;
-		text-align: justify;
-	}
-	
-	.minhas-informacoes {
-		padding: 20px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 10px;
-	}
-	
-	.minhas-informacoes img {
-		border-radius: 10%;
-		border: 4px solid #fff;
-		width: 150px;
-	}
-	
-	.minhas-informacoes .nome {
-		font-size: 26px;
-	}
-	
-	.minhas-informacoes .cargo {
-		font-size: 20px;
-		color: #b8bbc5;
-	}
+.descricao ul {
+	list-style-type: disc;
+	width: 90%;
+}
+
+.informacao ul li i {
+	color: #fff;
+	font-size: 40px;
+}
+
+.informacao ul li i {
+	color: black;
+	font-size: 30px;
+}
+
+.minhas-redes ul li {
+	background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.minhas-redes ul li:hover {
+	cursor: pointer;
+	transition: .4s;
+	background-color: white;
+	scale: 1.1;
+}
+
+.minhas-redes ul {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.box {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.imagens {
+    width: 300px;
+	height: 400px;
+    border-radius: 10px;
+	margin: 20px;
 }

@@ -1,9 +1,3 @@
-// passo 1 - dar um jeito de pegar os elementos que representam as abas no HTML
-// passo 3 - desmarcar a aba selecionada
-// passo 4 - marcar a aba clicada como selecionado
-// passo 5 - esconder o conteúdo anterior
-// passo 6 - mostrar o conteúdo da aba selecionada
-
 // passo 1 - pega a lista de abas
 const abas = document.querySelectorAll(".aba");
 
@@ -37,41 +31,7 @@ abas.forEach((aba) => {
 
     // passo 6 = Mostrar o conteúdo da aba selecionada
     const idDoElementoDeInformacoesDaAba = `informacao-${aba.id}`;
-    let elementoInformacaoDaAba = document.getElementById(idDoElementoDeInformacoesDaAba);  
+    const elementoInformacaoDaAba = document.getElementById(idDoElementoDeInformacoesDaAba);  
     elementoInformacaoDaAba.classList.add("selecionado")
   });
 });
-
-// passo 2 - dar um jeito de identificar o clique no elemento da aba
-// passo 3 - desmarcar a aba selecionada
-// passo 4 - marcar a aba clicada como selecionado
-// passo 5 - esconder o conteúdo anterior
-// passo 6 - mostrar o conteúdo da aba selecionada
-
-// const abas = document.querySelectorAll(".aba");
-
-// abas.forEach((aba) => {
-//   aba.addEventListener("click", function () {
-//     if (aba.classList.contains("selecionado")) return;
-
-//     selecionarAba(aba);
-//     mostrarInformacoesDaAba(aba);
-//   });
-// });
-
-// function selecionarAba(aba) {
-//   const abaSelecionada = document.querySelector(".aba.selecionado");
-//   abaSelecionada.classList.remove("selecionado");
-
-//   aba.classList.add("selecionado");
-// }
-
-// function mostrarInformacoesDaAba(aba) {
-//   const idDoElementoDeInformacoesDaAba = aba.id;
-//   const informacaoASerMostrada = document.getElementById(idDoElementoDeInformacoesDaAba);
-
-//   const informacaoSelecionada = document.querySelector(".informacao.selecionado");
-//   informacaoSelecionada.classList.remove("selecionado");
-
-//   informacaoASerMostrada.classList.add("selecionado");
-// }

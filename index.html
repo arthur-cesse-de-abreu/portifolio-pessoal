@@ -7,9 +7,14 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./imagens/favicon-32x32.png"
+      href="./images/favicon-32x32.png"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@800&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,117 +22,298 @@
       rel="stylesheet"
     />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@800&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@800&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
     </style>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/rolagem.css" />
     <link rel="stylesheet" href="./src/css/estilos.css" />
-
+    <link rel="stylesheet" href="src/css/respansivo.css">
     <title>Portifólio Arthur Cessé de Abreu</title>
   </head>
   <body>
     <header>
-        <nav>
-            <ul class="abas">
-            
-                <li class="aba selecionado" id="sobre-mim">
-                    <svg aria-label="Marcados" class="_ab6-" color="#fff" fill="#fff" height="24" role="img" viewBox="0 0 24 24" width="24"><path d="M10.201 3.797 12 1.997l1.799 1.8a1.59 1.59 0 0 0 1.124.465h5.259A1.818 1.818 0 0 1 22 6.08v14.104a1.818 1.818 0 0 1-1.818 1.818H3.818A1.818 1.818 0 0 1 2 20.184V6.08a1.818 1.818 0 0 1 1.818-1.818h5.26a1.59 1.59 0 0 0 1.123-.465Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M18.598 22.002V21.4a3.949 3.949 0 0 0-3.948-3.949H9.495A3.949 3.949 0 0 0 5.546 21.4v.603" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><circle cx="12.072" cy="11.075" fill="none" r="3.556" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle></svg>
-                </li>
-                
-                <li class="aba" id="conquistas">
-                    <i class="fa-solid fa-trophy"></i>
-                </li>
-            
-                <li class="aba" id="galeria">
-                    <svg aria-label="galeria" class="_ab6-" color="#fff" fill="#fff" height="24" role="img" viewBox="0 0 24 24" width="24"><rect fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="18" x="3" y="3"></rect><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="9.015" x2="9.015" y1="3" y2="21"></line><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="14.985" x2="14.985" y1="3" y2="21"></line><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="21" x2="3" y1="9.015" y2="9.015"></line><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="21" x2="3" y1="14.985" y2="14.985"></line></svg>
-                </li>
-            
-                <li class="aba" id="videos">
-                    <svg aria-label="Reels" class="_ab6-" color="#fff" fill="#fff" height="24" role="img" viewBox="0 0 24 24" width="24"><line fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2" x1="2.049" x2="21.95" y1="7.002" y2="7.002"></line><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="13.504" x2="16.362" y1="2.001" y2="7.002"></line><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="7.207" x2="10.002" y1="2.11" y2="7.002"></line><path d="M2 12.001v3.449c0 2.849.698 4.006 1.606 4.945.94.908 2.098 1.607 4.946 1.607h6.896c2.848 0 4.006-.699 4.946-1.607.908-.939 1.606-2.096 1.606-4.945V8.552c0-2.848-.698-4.006-1.606-4.945C19.454 2.699 18.296 2 15.448 2H8.552c-2.848 0-4.006.699-4.946 1.607C2.698 4.546 2 5.704 2 8.552Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M9.763 17.664a.908.908 0 0 1-.454-.787V11.63a.909.909 0 0 1 1.364-.788l4.545 2.624a.909.909 0 0 1 0 1.575l-4.545 2.624a.91.91 0 0 1-.91 0Z" fill-rule="evenodd"></path></svg>
-                </li>
-
-            </ul>
-        </nav>
+      <nav>
+        <ul class="abas">
+          <li class="aba selecionado" id="sobre-mim">
+            <svg
+              aria-label="Marcados"
+              class="_ab6-"
+              color="#fff"
+              fill="#fff"
+              height="24"
+              role="img"
+              viewBox="0 0 24 24"
+              width="24"
+            >
+              <path
+                d="M10.201 3.797 12 1.997l1.799 1.8a1.59 1.59 0 0 0 1.124.465h5.259A1.818 1.818 0 0 1 22 6.08v14.104a1.818 1.818 0 0 1-1.818 1.818H3.818A1.818 1.818 0 0 1 2 20.184V6.08a1.818 1.818 0 0 1 1.818-1.818h5.26a1.59 1.59 0 0 0 1.123-.465Z"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              ></path>
+              <path
+                d="M18.598 22.002V21.4a3.949 3.949 0 0 0-3.948-3.949H9.495A3.949 3.949 0 0 0 5.546 21.4v.603"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              ></path>
+              <circle
+                cx="12.072"
+                cy="11.075"
+                fill="none"
+                r="3.556"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              ></circle>
+            </svg>
+          </li>
+          <li class="aba" id="conquistas">
+            <i class="fa-solid fa-trophy"></i>
+          </li>
+          <li class="aba" id="minhas-redes">
+            <svg
+              aria-label="galeria"
+              class="_ab6-"
+              color="#fff"
+              fill="#fff"
+              height="24"
+              role="img"
+              viewBox="0 0 24 24"
+              width="24"
+            >
+              <rect
+                fill="none"
+                height="18"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                width="18"
+                x="3"
+                y="3"
+              ></rect>
+              <line
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                x1="9.015"
+                x2="9.015"
+                y1="3"
+                y2="21"
+              ></line>
+              <line
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                x1="14.985"
+                x2="14.985"
+                y1="3"
+                y2="21"
+              ></line>
+              <line
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                x1="21"
+                x2="3"
+                y1="9.015"
+                y2="9.015"
+              ></line>
+              <line
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                x1="21"
+                x2="3"
+                y1="14.985"
+                y2="14.985"
+              ></line>
+            </svg>
+          </li>
+          <li class="aba" id="videos-e-images">
+            <svg
+              aria-label="Reels"
+              class="_ab6-"
+              color="#fff"
+              fill="#fff"
+              height="24"
+              role="img"
+              viewBox="0 0 24 24"
+              width="24"
+            >
+              <line
+                fill="none"
+                stroke="currentColor"
+                stroke-linejoin="round"
+                stroke-width="2"
+                x1="2.049"
+                x2="21.95"
+                y1="7.002"
+                y2="7.002"
+              ></line>
+              <line
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                x1="13.504"
+                x2="16.362"
+                y1="2.001"
+                y2="7.002"
+              ></line>
+              <line
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                x1="7.207"
+                x2="10.002"
+                y1="2.11"
+                y2="7.002"
+              ></line>
+              <path
+                d="M2 12.001v3.449c0 2.849.698 4.006 1.606 4.945.94.908 2.098 1.607 4.946 1.607h6.896c2.848 0 4.006-.699 4.946-1.607.908-.939 1.606-2.096 1.606-4.945V8.552c0-2.848-.698-4.006-1.606-4.945C19.454 2.699 18.296 2 15.448 2H8.552c-2.848 0-4.006.699-4.946 1.607C2.698 4.546 2 5.704 2 8.552Z"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              ></path>
+              <path
+                d="M9.763 17.664a.908.908 0 0 1-.454-.787V11.63a.909.909 0 0 1 1.364-.788l4.545 2.624a.909.909 0 0 1 0 1.575l-4.545 2.624a.91.91 0 0 1-.91 0Z"
+                fill-rule="evenodd"
+                style="background-color: black"
+              ></path>
+            </svg>
+          </li>
+        </ul>
+      </nav>
     </header>
-    
+
     <div class="minhas-informacoes">
-        <img src="./src/imagens/foto-perfil.jpeg" alt="foto de perfil"/>
-        <h1 class="nome">Arthur Cessé de Abreu</h1>
-        <h2 class="cargo">Atleta de Jiu-jitsu</h2>
+      <img src="./src/images/foto-perfil.jpeg" alt="foto de perfil" />
+      <h1 class="nome">Arthur Cessé de Abreu</h1>
+      <h2 class="cargo">Atleta de Jiu-jitsu</h2>
     </div>
 
     <main class="informacoes-abas">
+      <section class="informacao selecionado" id="informacao-sobre-mim">
+        <div class="descricao">
+          <p>
+            Olá, meu nome é Arthur Cessé de Abreu. Tenho 17 anos, nasci em 08 de
+            março de 2006 em Campo Grande (MS), mas desde muito jovem fui para
+            São Gabriel do Oeste. Moro atualmente em São Paulo (SP). Desde
+            criança, assistia UFC com meu pai e brincava de luta com ele. Nessas
+            brincadeiras, sempre gostei mais da parte de jiu-jitsu, sem nem
+            mesmo saber o que era. Aos 10 anos, meu pai me colocou no projeto
+            social "Diga não às drogas, pratique jiu-jitsu" da academia Nova
+            União SL Jiu-jitsu. Desde então, nunca mais parei, e o amor pelo
+            jiu-jitsu só aumenta. Fui uma criança obesa e esse foi o primeiro
+            obstáculo. Tive destaque nas competições locais. Meu maior título
+            até o momento é campeão mundial CBJJD 2022 no Rio de Janeiro, após
+            passar por uma seletiva feita pela FSMJJ com premiação da viagem
+            para o mundial. Graduei faixa azul no final de 2022 e obtive o
+            cinturão de maior destaque no circuito MS, seguindo invicto no
+            circuito categoria e com uma derrota na final do meu primeiro
+            absoluto. Após receber destaque, fiquei sabendo que a academia de
+            lutas Fratres Matriz estava à procura de jovens promissores. Fui
+            indicado pela Lucinha Jara, mestra da Fratres MS, para fazer o teste
+            de admissão em São Paulo (SP). Após aceitarem minha participação,
+            passei no teste e fui admitido como novo integrante da equipe. Além
+            de poder me hospedar na casa dos atletas, passei a morar em São
+            Paulo, treinando na academia que mais cresce no Brasil, deixando
+            para trás escola, trabalho, família, amigos e a antiga equipe.
+          </p>
+        </div>
+      </section>
+      <section class="informacao" id="informacao-conquistas">
+        <!-- <h3 class="sub-titulo">Conquistas</h3> -->
+        <div class="descricao">
+          <ul>
+            <li>Campeão Estadual infantil 2017</li>
+            <li>Campeão Estadual infantil 2018</li>
+            <li>3°Lugar Campeonato Brasileiro Centro Oeste CBJJD infantil 2018</li>
+            <li>Campeão Extremo norte infantil 2018</li>
+            <li>Campeão GP MS infantil 2018</li>
+            <li>Campeão Sul-americano CBJJD infantil 2019</li>
+            <li>3° Lugar Campeonato Brasileiro Centro Oeste CBJJD infantil 2019</li>
+            <li>Campeão GP MS infantil 2021</li>
+            <li>Campeão Estadual infantil 2021 </li>
+            <li>Campeão GP MS juvenil Faixa Branca 2022</li>
+            <li>Campeão International cup CBJJD Juvenil Faixa Branca 2022</li>
+            <li>Campeão Seletiva Brasileiro CBJJD Juvenil Faixa Branca 2022</li>
+            <li>3° lugar Campeonato Brasileiro CBJJD juvenil Faixa Branca 2022</li>
+            <li>Campeão Mundial CBJJD Juvenil Faixa Branca 2022</li>
+            <li>Bicampeão GP MS Juvenil 2022</li>
+            <li>Campeão Campeonato Pantaneiro CBJJD Juvenil Faixa Branca 2022</li>
+            <li>Campeão International Cup CBJJD Juvenil Faixa Azul 2023</li>
+            <li>Vice-campeão Absoluto International Cup CBJJD Juvenil Faixa Azul 2023</li>
+            <li>Campeão Pantanal International Juvenil Faixa Azul 2023</li>
+            <li>Campeão absoluto Pantanal International Juvenil Faixa Azul 2023</li>
+            <li>Campeão Extremo Norte Juvenil Faixa Azul 2023</li>
+            <li>Campeão Absoluto Extremo Norte Juvenil Faixa Azul 2023</li>
+          </ul>
+        </div>
+      </section>
+      <section class="informacao minhas-redes" id="informacao-minhas-redes">
+        <ul>
+            <a href="https://www.instagram.com/arthur._.bjj/" target="_blank">
+                <li>
+                    <i class="fa-brands fa-instagram"></i></i>
+                </li>
+            </a>
+            <li><i class="fa-brands fa-whatsapp"></i></li>
+            <a href="https://www.facebook.com/arthur.cessedeabreu/" target="_blank">
+                <li>
+                    <i class="fa-brands fa-facebook"></i>
+                </li>
+            </a>
 
-        <section class="informacao selecionado" id="informacao-sobre-mim">
-            <div class="descricao">
-                <p>
-                    Olá, meu nome é Arthur Cessé de Abreu tenho 17 anos nasci dia 08 de
-                    março de 2006 em Campo Grande (MS) mas desde muito
-                    jovem fui para São Gabriel do Oeste moro atualmente em São
-                    Paulo (SP) desde criança assitia UFC com meu pai e brincava de
-                    lutinha com meu pai, nessas brincadeiras sempre gostei mais da
-                    perte de jiu-jitsu sem nem msm saber oq era, aos 10 anos meu pai
-                    me colocou no projeto social Diga não as drogas pratique jiu-jitsu
-                    da academia Nova união SL jiu-jitsu, desde então nunca mais parei
-                    e o amor pelo jiu-jitsu só aumenta, fui uma criança obesa e esse
-                    foi o primeiro obstáculo tive destaque nas competições locais o
-                    meu maior título até o momento é campeão Mundial CBJJD 2022 no R
-                    io de Janeiro após passar por uma seletiva feita pela FSMJJ com
-                    premiação da viagem para o Mundial, graduei faixa azul no final de
-                    2022 e obtendo o cinturão de maior destaque no circuito MS
-                    seguindo invicto no circuito categoria e com uma derrota na final
-                    do meu primeiro absoluto, após receber destaque fiquei sabendo que
-                    a academia de lutas Fratres Matriz estava a procura de jovens
-                    promissores e fui indicado pela Lucinha Jara mestra da Fratres MS
-                    para fazer o teste de admissão em São Paulo(SP), apos aceitarem
-                    minha participação passei no teste e fui admitido como novo
-                    integrante da Equipe além de poder me hospedar na casa dos atletas
-                    e passei a morar em São Paulo treinando na academia que mais
-                    cresce n o Brasil deixando para traz escola, trabalho, família e
-                    amigos e a antiga equipe.
-                </p>
-            </div>
-        </section>
-
-        <section class="informacao " id="informacao-conquistas">
-            <h3 class="sub-titulo">Conquistas</h3>
-            <ul class="conquistas">
+            <a href="https://www.facebook.com/arthur.cessedeabreu/" target="_blank">
                 <li>
-                    <span>Campeonato Sul Americano</span>
+                    <i class="fa-brands fa-facebook"></i>
                 </li>
-                <li>
-                    <span>Campeonato Pan Americano</span>
-                </li>
-            </ul>
-        </section>
-
-        <section class="informacao " id="informacao-galeria">
-            <h3 class="sub-titulo">Galeria de Imagens</h3>
-            <!-- <ul class="conquistas">
-                <li>
-                    <span>Campeonato Sul Americano</span>
-                </li>
-                <li>
-                    <span>Campeonato Pan Americano</span>
-                </li>
-            </ul> -->
-        </section>
-
-        <section class="informacao " id="informacao-videos">
-            <h3 class="sub-titulo">Vídeos</h3>
-            <!-- <ul class="conquistas">
-                <li>
-                    <span>Campeonato Sul Americano</span>
-                </li>
-                <li>
-                    <span>Campeonato Pan Americano</span>
-                </li>
-            </ul> -->
-        </section>
-
+            </a>
+        </ul>
+      </section>
+      <section class="informacao" id="informacao-videos-e-images">
+        <div class="descricao">
+          <div class="box">
+            <img class="images" src="src/images/colocando-faixa.jpeg" alt="">
+            <img class="images" src="src/images/WhatsApp Image 2023-08-29 at 16.40.15 (1).jpeg" alt="">
+            <img class="images" src="src/images/punhos-fechados.jpeg" alt="">
+            <img class="images" src="src/images/WhatsApp Image 2023-08-29 at 16.40.15.jpeg" alt="">
+            <img class="images" src="src/images/WhatsApp Image 2023-08-29 at 16.40.16 (1).jpeg" alt=""> 
+            <img class="images" src="" alt="">
+            <img class="images" src="src/images/WhatsApp Image 2023-08-29 at 16.40.16.jpeg" alt="">
+            <img class="images" src="" alt="">
+          </div>
+        </div>
+      </section>
     </main>
-
     <script src="./src/js/index.js"></script>
   </body>
 </html>
