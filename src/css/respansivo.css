@@ -98,8 +98,29 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
+    header {
+        width: 90%;
+    }
+    
+    .minhas-informacoes {
+        margin-top: 90px;
+    }
+    
+    .informacoes-abas {
+        width: 300px;
+    }
+    
+    .informacoes-abas .descricao {
+        width: 280px;
+    }
 
+    .box img {
+        width: 280px;
+        height: 370px;
+        border-radius: 10px;
+        margin: 20px;
+    }
 }
 
 @media (max-width: 768px) {
