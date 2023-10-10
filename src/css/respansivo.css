@@ -2,7 +2,6 @@
 
     body {
         flex-direction: column;
-        /* gap: 15px; */
     }
 
     header {
@@ -24,7 +23,7 @@
 	.minhas-informacoes img {
 		border-radius: 10%;
 		border: 1px solid #fff;
-		width: 100px;
+		width: 120px;
         padding: 0;
 	}
 	
@@ -41,7 +40,7 @@
         border-radius: 20px;
         border: 1px solid #fff;
         margin-top: 10px;
-        height: 300px;
+        height: 350px;
     }
 
     .informacoes-abas .informacao.selecionado {
@@ -49,7 +48,7 @@
     }
 
     .informacoes-abas .descricao {
-        max-height: 270px;
+        max-height: 320px;
     }
 
     .informacoes-abas .informacao.selecionado {
@@ -79,4 +78,30 @@
     .informacao ul li i {
         font-size: 50px;
     }
+}
+
+@media (max-width: 320px) {
+    header {
+        width: 90%;
+    }
+
+    .minhas-informacoes {
+        margin-top: 90px;
+    }
+
+    .informacoes-abas {
+        width: 300px;
+    }
+
+    .informacoes-abas .descricao {
+        width: 280px;
+    }
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 768px) {
+
 }
