@@ -1,18 +1,14 @@
 body {
 	font-family: sans-serif;
-
 	background-image: url(../images/fundo-site.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-
 	color: #f3f3f3;
 	font-size: 18px;
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 	min-height: 100vh;
 	margin: 0;
 }
@@ -40,7 +36,7 @@ nav {
 }
 
 i {
-	font-size: 24px;
+	font-size: 16px;
 	color: #000;
 }
 
@@ -209,12 +205,13 @@ label {
 }
 
 .minhas-redes ul li {
-	background-color: white;
-    padding: 20px;
+	padding: 10px;
     margin: 10px;
-    width: 200px;
-    border-radius: 10px;
-    text-align: center;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .minhas-redes ul li:hover {
